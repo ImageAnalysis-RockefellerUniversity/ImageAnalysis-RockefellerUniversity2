@@ -17,7 +17,7 @@ parts:
 #      - file: Bonus Exercise - 3D segmentation and viasulaization
   
   
-#  - caption: User Group meetings
+  - caption: User Group meetings
 #    chapters:
 #    - file: 11/07/2024
 #    - file: 05/23/2024

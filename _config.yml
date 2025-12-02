@@ -1,0 +1,31 @@
+# https://jupyterbook.org/v1/customize/config.html
+
+# Book settings
+title                       : Image Analysis @ Bio-Imaging Resource Center # The title of the book. Will be placed in the left navbar.
+author                      : Ved Sharma
+copyright                   : "2025"  # Copyright year to be placed in the footer
+logo                        : logo1.png  # A path to the book logo
+
+# Force re-execution of notebooks on each build.
+# See https://jupyterbook.org/content/execute.html
+execute:
+  execute_notebooks: 'off'
+
+# Information about where the book exists on the web
+repository:
+  url: https://github.com/ImageAnalysis-RockefellerUniversity/ImageAnalysis-RockefellerUniversity2 # Online location of your book
+  path_to_book: .  # Optional path to your book, relative to the repository root
+  branch: main  # Which branch of the repository should be used when creating links (optional)
+
+html:
+  use_issues_button: true
+  use_repository_button: true
+  extra_footer: |
+    <p>
+    Copyright: Licensed <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC-BY 4.0</a> unless mentioned otherwise. 
+    Contributions and feedback are welcome.
+    </p>
+sphinx:
+  config:
+    html_show_copyright: false
+    html_last_updated_fmt: '%Y-%m-%d'

@@ -1,11 +1,23 @@
 # Table of contents
-# Learn more at https://jupyterbook.org/customize/toc.html
+# Learn more at https://jupyterbook.org/v1/structure/toc.html
 
 format: jb-book
 root: README
+
 parts:
-  - caption: Image Analysis services overview
 
   - caption: Training
-
-  - caption: User Group meeting    
+    chapters:
+    - file: Training/seminar_workshop/Image_analysis_presentation_2022.md
+      sections:
+      - file: Training/seminar_workshop/Image_analysis_workshop_2022.md
+      - file: Training/seminar_workshop/Image_analysis_workshop_2022_Exercise1.md
+#      - file: Exercise 2 - Cell tracking
+#      - file: Exercise 3 - Denoising with Deep Learning
+#      - file: Bonus Exercise - 3D segmentation and viasulaization
+  
+  
+#  - caption: User Group meetings
+#    chapters:
+#    - file: 11/07/2024
+#    - file: 05/23/2024

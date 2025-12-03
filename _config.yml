@@ -4,7 +4,7 @@
 title                       : Image Analysis @ Bio-Imaging Resource Center # The title of the book. Will be placed in the left navbar.
 author                      : Ved Sharma
 copyright                   : "2025"  # Copyright year to be placed in the footer
-logo                        : logo1.png  # A path to the book logo
+logo                        : logo4.png  # A path to the book logo
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
